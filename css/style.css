@@ -1,0 +1,443 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #595b5e;
+}
+
+a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+
+
+.section_heading{
+    text-align: center;
+    margin-bottom: 3em;
+    color: #595b5e;
+}
+
+.section_heading h1{
+   font-size: 2.8em;
+    letter-spacing: 0.1em;
+}
+
+.section_heading p{
+    font-size: 1.2em;
+}
+
+
+.item img {
+    display: block;
+    width: 100%;
+}
+
+#menu {
+    width: 100%;
+    background-color: #ffffff;
+    height: 5.3em;;
+}
+
+#menu-up #navi{
+    background-color: rgba(255,255,255,0.9);
+}
+
+#nav-menu {
+    padding-top: 1em;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.navbar-default .navbar-nav li {
+    margin-right: 1em;
+}
+
+.navbar-default .navbar-nav > li > a {
+    display: block;
+    height: 2.7em;
+    text-align: center;
+    line-height: 0.8em;
+    letter-spacing: 0.1em;
+    margin-top: 0.5em;
+    border: 1px solid transparent;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a:visited {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    border: 1px solid #00a0e4;
+    border-radius: 5px;
+    color: #000000;
+    -moz-animation: pulse 0.7s;
+    -webkit-animation: pulse 0.7s;
+    animation: pulse 0.7s;
+}
+
+#logo {
+    margin-top: -1.5em;
+}
+
+#logo h1 {
+    float: left;
+    margin-top: 0.3em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.6em;
+}
+
+#slider {
+    margin-top: 5.3em;
+}
+
+.carousel-caption p{
+    color: gray;
+    font-size: 2em;
+    position: relative;
+    top: -3em;
+}
+
+.teeth_photos {
+    margin-top: 3.5em;
+}
+
+.teeth_photos img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+#about_us {
+   padding-top: 4em;
+}
+
+.about_us {
+    margin-top: 2em;
+}
+
+
+.new_panel h2{
+    font-size: 1.4em;
+    text-decoration: none;
+    border: 1px solid #00a0e4;
+    background-color: #ffffff;
+    color: #128ae0;
+    padding: 0.5em;
+    width: 14em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.new_panel span {
+    padding-left: 0.3em;
+   top: 0.2em;
+}
+
+.new_panel h2:hover {
+color: #ffffff;
+background: #00a0e4;
+animation: pulse 0.5s;
+}
+
+.panel-heading a:hover {
+    text-decoration: none;
+}
+
+.new_panel p {
+    color: #111111;
+    font-size: 1.2em;
+}
+
+.panel-heading {
+    margin-bottom: -0.5em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.panel-heading a {
+    display: block;
+    text-decoration: none;
+}
+
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#offer {
+    padding-top: 4em;
+}
+
+.offer {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+
+.offer_panel a {
+    display: block;
+    border: none;
+    padding: -1em;
+}
+
+
+.offer_panel a h2{
+    font-size: 1.3em;
+    border: none;
+}
+
+.offer_panel a:hover {
+    border: none;
+    animation: pulse 1s ;
+    font-weight: bold;
+    color: #00a0e4;
+}
+
+.offer_panel a:active {
+  text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+ 
+.offer_panel a:visited {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+
+#team {
+    padding-top: 4em;
+}
+
+.team_foto {
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.team_foto h2 {
+    margin-top: 1.3em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team_foto p {
+    font-size: 1em;
+    text-align: center;
+}
+
+#work {
+    padding-top: 4em;
+    margin-bottom: 3em;
+}
+#work img {
+    display: block;
+    width: 100%;
+}
+
+.work_text  {
+    margin-top: 4em;
+}
+
+.work_text  ul {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.work_text q {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+
+#map {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 3em;
+}
+
+#contact {
+    padding-top: 4em;
+}
+
+.contact_text h2{
+    font-size: 2.3em;
+    margin-bottom: 1.5em;
+}
+
+.contact_text h3 {
+    margin-top: 1.5em;
+    border-bottom: 1px solid #edeff2;
+}
+
+.contact_text p {
+    font-size: 1.1em;
+}
+
+.contact_text p span{
+    
+    padding-right: 0.5em;
+}
+
+.contact_text button:hover {
+    animation: wobble 2s;
+}
+
+
+footer {
+    width 100%;
+    height: 60px;
+    background-color: #edeff2;
+    margin-top: 3em;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 0.8em;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+
+
+@media screen and (min-width:1400px){
+    
+    .teeth_photos {
+        margin-top: 5em;
+    }
+    
+    #about_us {
+        padding-top: 8em;
+        padding-bottom: 12em;
+    }
+   
+    #offer {
+        padding-top: 9em;
+        padding-bottom: 14em;
+    }
+
+   
+    #team {
+        padding-top: 10em;
+    }
+    
+    #work {
+        padding-top: 12em;
+        margin-bottom: 5em;
+    }
+}
+
+@media screen and (max-width:764px){
+    #nav-menu {
+        height: 78px;
+    }
+
+    #logo img{
+        display: block;
+        margin-top: -1em;
+    }
+
+    #logo h1 {
+        font-size: 2.2em;
+    }
+
+    .carousel-caption p {
+        top: 0.5em;
+        font-size: 1.2em;
+    }
+
+    .teeth_photos {
+        padding: 0 5em;
+    }
+    .teeth_photos img {
+        padding-bottom: 1.5em;
+       
+    }
+    
+    .new_panel {
+        margin: 10% 0;
+        
+    }
+    
+    
+    .section_heading p {
+        padding: 0.5em;
+    }
+
+    #work {
+        padding: 1.5em;
+    }
+
+    #contact {
+        padding: 1.5em;
+    }
+
+    footer {
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width:765px) and (max-width:960px){
+    #logo img {
+        width: 90%;
+    }
+    #nav-menu {
+        height: 78px;
+    }
+    #logo h1{
+        font-size: 1.9em;
+        padding-top: 1em;
+    }
+    .navbar-default .navbar-nav > li > a{
+        font-size: 0.8em;
+        text-align: left;
+    }
+    .teeth_photos {
+        padding: 0 5em;
+    }
+    .teeth_photos img {
+        padding-bottom: 1.5em;
+    }
+    
+    #work img {
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width:380px) {
+  #logo img{
+        height: 0;
+    }
+    
+    #logo h1 {
+        font-size: 1.5em;
+        padding-top: 0.8em;
+        margin-left: -1.8em;
+    }
+
+    .nav-menu h2 {
+        width: 12em;
+        font-size: 1.2em;
+        margin-left: -1em;
+    }
+    
+    .teeth_photos {
+       height: 5em;
+    }
+    .teeth_photos img {
+       height: 100%;
+        width: 100%;
+    }
+}
+
+
+
+
