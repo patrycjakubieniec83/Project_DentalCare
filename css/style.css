@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+    /*font-family: 'Bad Script', cursive;*/
     font-size: 15px;
     color: #595b5e;
 }
@@ -11,20 +12,18 @@ a, a:hover, a:active, a:visited {
     border-bottom: 1px solid transparent;
 }
 
-
-
-.section_heading{
+.section-heading{
     text-align: center;
     margin-bottom: 3em;
     color: #595b5e;
 }
 
-.section_heading h1{
+.section-heading h1{
    font-size: 2.8em;
     letter-spacing: 0.1em;
 }
 
-.section_heading p{
+.section-heading p{
     font-size: 1.2em;
 }
 
@@ -106,27 +105,26 @@ a, a:hover, a:active, a:visited {
     top: -3em;
 }
 
-.teeth_photos {
+.teeth-photos {
     margin-top: 3.5em;
 }
 
-.teeth_photos img{
+.teeth-photos img{
     display: block;
     width: 80%;
     margin: 0 auto;
 }
 
-
-#about_us {
+#about-us {
    padding-top: 4em;
 }
 
-.about_us {
+.about-us {
     margin-top: 2em;
 }
 
 
-.new_panel h2{
+.new-panel h2{
     font-size: 1.4em;
     text-decoration: none;
     border: 1px solid #00a0e4;
@@ -138,12 +136,12 @@ a, a:hover, a:active, a:visited {
     border-radius: 10px;
 }
 
-.new_panel span {
+.new-panel span {
     padding-left: 0.3em;
    top: 0.2em;
 }
 
-.new_panel h2:hover {
+.new-panel h2:hover {
 color: #ffffff;
 background: #00a0e4;
 animation: pulse 0.5s;
@@ -153,7 +151,7 @@ animation: pulse 0.5s;
     text-decoration: none;
 }
 
-.new_panel p {
+.new-panel p {
     color: #111111;
     font-size: 1.2em;
 }
@@ -184,31 +182,31 @@ animation: pulse 0.5s;
 }
 
 
-.offer_panel a {
+.offer-panel a {
     display: block;
     border: none;
     padding: -1em;
 }
 
 
-.offer_panel a h2{
+.offer-panel a h2{
     font-size: 1.3em;
     border: none;
 }
 
-.offer_panel a:hover {
+.offer-panel a:hover {
     border: none;
     animation: pulse 1s ;
     font-weight: bold;
     color: #00a0e4;
 }
 
-.offer_panel a:active {
+.offer-panel a:active {
   text-decoration: none;
     border-bottom: 1px solid transparent;
 }
  
-.offer_panel a:visited {
+.offer-panel a:visited {
     text-decoration: none;
     border-bottom: 1px solid transparent;
 }
@@ -218,23 +216,24 @@ animation: pulse 0.5s;
     padding-top: 4em;
 }
 
-.team_foto {
+.team-foto {
     margin-top: 2em;
     margin-bottom: 5em;
 }
 
-.team_foto h2 {
+.team-foto h2 {
     margin-top: 1.3em;
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
 }
 
-.team_foto p {
+.team-foto p {
     font-size: 1em;
     text-align: center;
 }
 
+/* WORK */
 #work {
     padding-top: 4em;
     margin-bottom: 3em;
@@ -244,15 +243,15 @@ animation: pulse 0.5s;
     width: 100%;
 }
 
-.work_text  {
+.work-text  {
     margin-top: 4em;
 }
 
-.work_text  ul {
+.work-text  ul {
     margin-top: 2em;
     margin-bottom: 2em;
 }
-.work_text q {
+.work-text q {
     font-size: 0.8em;
     font-style: italic;
 }
@@ -268,29 +267,28 @@ animation: pulse 0.5s;
     padding-top: 4em;
 }
 
-.contact_text h2{
+.contact-text h2{
     font-size: 2.3em;
     margin-bottom: 1.5em;
 }
 
-.contact_text h3 {
+.contact-text h3 {
     margin-top: 1.5em;
     border-bottom: 1px solid #edeff2;
 }
 
-.contact_text p {
+.contact-text p {
     font-size: 1.1em;
 }
 
-.contact_text p span{
+.contact-text p span{
     
     padding-right: 0.5em;
 }
 
-.contact_text button:hover {
+.contact-text button:hover {
     animation: wobble 2s;
 }
-
 
 footer {
     width 100%;
@@ -307,14 +305,12 @@ footer h2 {
 }
 
 
-
 @media screen and (min-width:1400px){
-    
-    .teeth_photos {
+    .teeth-photos {
         margin-top: 5em;
     }
     
-    #about_us {
+    #about-us {
         padding-top: 8em;
         padding-bottom: 12em;
     }
@@ -324,7 +320,6 @@ footer h2 {
         padding-bottom: 14em;
     }
 
-   
     #team {
         padding-top: 10em;
     }
@@ -354,21 +349,21 @@ footer h2 {
         font-size: 1.2em;
     }
 
-    .teeth_photos {
+    .teeth-photos {
         padding: 0 5em;
     }
-    .teeth_photos img {
+    .teeth-photos img {
         padding-bottom: 1.5em;
        
     }
     
-    .new_panel {
+    .new-panel {
         margin: 10% 0;
         
     }
     
     
-    .section_heading p {
+    .section-heading p {
         padding: 0.5em;
     }
 
@@ -400,10 +395,10 @@ footer h2 {
         font-size: 0.8em;
         text-align: left;
     }
-    .teeth_photos {
+    .teeth-photos {
         padding: 0 5em;
     }
-    .teeth_photos img {
+    .teeth-photos img {
         padding-bottom: 1.5em;
     }
     
@@ -429,10 +424,10 @@ footer h2 {
         margin-left: -1em;
     }
     
-    .teeth_photos {
+    .teeth-photos {
        height: 5em;
     }
-    .teeth_photos img {
+    .teeth-photos img {
        height: 100%;
         width: 100%;
     }
